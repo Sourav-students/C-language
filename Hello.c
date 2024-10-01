@@ -9,7 +9,7 @@ int main()
 
   scanf("%d%d",&a,&b);
   add=a+b;
-  printf("result of Add is%d",&add);
+  printf("result of Add is%d",add);
 
   return 0; }
   
