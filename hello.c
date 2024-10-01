@@ -7,6 +7,6 @@ int main ()
 printf("Enter the two value");
 scanf("%d%d",&a,&b);
 sub=a-b;
-printf("Result of sub is%d",&sub);
+printf("Result of sub is%d",sub);
 return 0;
 }
