@@ -10,7 +10,7 @@ int main()
 
 
    cir=pie*r*r;
-    printf("area of circle is %f/n",&cir);
+    printf("area of circle is %f/n",cir);
 
     return 0;
 
