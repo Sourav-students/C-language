@@ -14,3 +14,23 @@ int main(){
 
     return 0;
 }
+
+
+//print a message for adult age
+#include<stdio.h>
+
+int main(){
+    int age;
+    printf("Enter the age");
+    scanf("%d",&age);
+
+    if (age > 18){
+        printf("%d you are not adult.\n",age);
+        printf("They can drive\n");
+    }
+    else{
+    printf("%d you are adult.\n",age);
+    printf("They can't drive");
+}
+    return 0;
+}
