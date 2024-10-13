@@ -55,3 +55,24 @@ int main(){
 }
     return 0;
 }
+
+
+
+//ATM pin check
+#include<stdio.h>
+
+int main(){
+    int pin=4367,enterpin;
+    printf("Enter the pin");
+    scanf("%d",&enterpin);
+
+    if (enterpin == pin){
+        printf("Pin accept %d recive your money",enterpin);
+        
+    }
+    else{
+    printf("Incorrect pin %d bhakkk yaha seee",enterpin);
+    
+}
+    return 0;
+}
