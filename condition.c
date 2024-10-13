@@ -36,3 +36,18 @@ int main() {
     }
     return 0;
 }
+
+//Find the Largest of Two Numbers
+#include<stdio.h>
+
+int main(){
+int Num1,Num2;
+printf("Enter the two number");
+scanf("%d%d",&Num1,&Num2);
+
+if ( Num1 > Num2){
+    printf("the largest number is %d\n",Num1);
+
+}
+return 0;
+}
