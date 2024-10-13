@@ -23,3 +23,16 @@ int main() {
     }
     return 0;
 }
+
+// Print a Message for Adult Age
+#include <stdio.h>
+
+int main() {
+    int age;
+    printf("Enter a number: ");
+    scanf("%d", &age);
+    if (age <= 18) {
+        printf("you are adult.\n");
+    }
+    return 0;
+}
