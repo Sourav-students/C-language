@@ -34,3 +34,24 @@ int main(){
 }
     return 0;
 }
+
+
+
+//check if number is even else odd
+#include<stdio.h>
+
+int main(){
+    int Num;
+    printf("Enter the value");
+    scanf("%d",&Num);
+
+    if (Num % 2 == 0){
+        printf("The Number is even %d",Num);
+        
+    }
+    else{
+    printf("The Number is odd %d",Num);
+    
+}
+    return 0;
+}
