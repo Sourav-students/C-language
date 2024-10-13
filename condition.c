@@ -70,3 +70,23 @@ if (Num % 5 == 0)
     printf("is dvided by 5 :\n");
 }
 }
+
+
+//Determine Grade Based on Marks
+#include<stdio.h>
+
+int main(){
+    int marks;
+    printf("Enter the marks");
+    scanf("%d",&marks);
+
+    if (marks <= 33){
+        printf("you are fail %d",marks);
+        
+    }
+    else{
+    printf("you are pass %d",marks);
+    
+}
+    return 0;
+}
