@@ -1,3 +1,4 @@
+//Write a program to demonstrate arithmetic operators.
 #include<stdio.h>
 
 int main ()
